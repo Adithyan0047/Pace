@@ -5,8 +5,8 @@ You must implement a solution with a linear runtime complexity and use only cons
 class Solution:
     def singleNumber(self, nums:List[int]) -> int:
         result=0 
-        for num in nums:
-            result^= num
+    for num in nums:
+        result^= num
         return result
 
             
